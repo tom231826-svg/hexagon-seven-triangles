@@ -42,6 +42,6 @@ python3 -B finite/verify.py without-distance
 python3 -B finite/verify.py with-distance
 ```
 
-원래 육각형 전체에 대한 증명은 Lean으로 확인할 수 있다. 105점의 두 판정은 위의 별도 정확 산술 검산기를 사용한다. [105점 자료와 검산 방법](finite/README.md) · [Lean 빌드 방법과 검증 범위](lean/README.md)
+원래 육각형 전체에 대한 증명은 Lean으로 확인할 수 있다. 11월 17일에는 로컬 모듈 1,041개를 빈 빌드 폴더에서 컴파일하고 새 Lean 커널 환경에서 재검사했다. 공개 직전에는 복제본에서 기존 빌드의 의존 모듈 1,015개를 해시로 대조하고 최상위 두 모듈을 다시 컴파일했다. 105점의 두 판정은 위의 별도 정확 산술 검산기를 사용한다. [105점 검산 방법](finite/README.md) · [Lean 빌드 방법](lean/README.md) · [공개본 검증 기록](lean/verification.json)
 
 **tom231826-svg**가 연구 질문과 다음에 검토할 경우를 정하며 진행한 AI 협업 프로젝트다. **Codex, Claude, Antigravity**가 증명 탐색, 계산 인증서 작성과 교차 검토에 참여했다. 각 결론의 근거는 위에 연결한 증명, 좌표, 검사기에서 확인할 수 있다.

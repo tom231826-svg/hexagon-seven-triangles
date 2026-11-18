@@ -1,0 +1,139 @@
+{
+  "checked_on": "2026-11-18",
+  "lean_version": "Lean (version 4.35.0, arm64-apple-darwin24.6.0, commit eb6cafb7290e8bd5f2937522d8d804f58f02bafc, Release)",
+  "external_mathlib_commit": "56a005855ea17e0b0958f73ec801ae140b0a1679",
+  "source": {
+    "relative_file_checksums": "SHA256SUMS",
+    "relative_file_checksums_sha256": "a09c6597f15a8d9311b0f53f57392ce16e92e058e70beb5b8bde6a5790b3ed45",
+    "verified_lean_modules": 1041,
+    "verified_toolchain_and_lake_files": 3,
+    "module_bytes": 134860827
+  },
+  "historical_clean_build": {
+    "date": "2026-11-17",
+    "local_modules": 1041,
+    "preloaded_project_objects": 0,
+    "compiler_cpu_s": 13161.588266000008,
+    "source_manifest_sha256": "b54ece3aab7375781a0d0bbf2842702f8f2634e2d6fa067b9bb84245c3cc81d8",
+    "build_audit_sha256": "145e041ca39ca3764dba3a72370f4fdc3cef93b6a0d074b4541c0050cdedf783",
+    "completion_sha256": "c3ccd6b01f5a0d72f7a089390f2023986047e44790ceb164b2a0de4ac192f627",
+    "fresh_kernel_replay": {
+      "passed": true,
+      "mode": "fresh-clean-export-kernel-replay",
+      "final_record_sha256": "0c0dc071c2cc1565adaebbf9b244a0618306dc75b061b1c849b2fa6d5eaa0f18",
+      "export_sha256": "c5ee94f68864a56983f628cf67d46d4a514386b3d4e54e35712233546127252b",
+      "export_bytes": 4562897025,
+      "targets": 77,
+      "independent_kernel_implementation": false
+    },
+    "allowed_axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  "release_clone": {
+    "git_commit": "afb7393b2a989f6c8c4865f8fe39d6407928eb25",
+    "method": "git clone --no-local",
+    "verified_source_and_lockfiles": 1044,
+    "pinned_external_packages": 9,
+    "target_closure_modules": 1017,
+    "cache": "prerequisite objects selected from the historical clean build, each checked against its accepted compiler receipt and source hash",
+    "verified_cached_project_modules": 1015,
+    "fresh_local_source_compilations": [
+      {
+        "managed_run": "lean-review-github-gitcheck-finaltheorem-801eb03cab",
+        "managed_receipt_sha256": "ef377f2278e5b8e02a1151acc8fc38bffe27f3b2de39c6964db7ca1cb63f0d58",
+        "stdout_sha256": "40b311f316cbaaf52ba417941a0b7a561b7db8b9c28eccad95f54fe65dd94ae2",
+        "exit_code": 0,
+        "elapsed_s": 61.853651167,
+        "module": "HexagonCover.FinalTheorem",
+        "source_sha256": "2eb4361b9b06c1f3e60997aae3a8fcca1084f1e265867680ba3cb43d700e4b30",
+        "axioms_by_theorem": {
+          "HexagonCover.FinalTheorem.normalized_impossible": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "HexagonCover.FinalTheorem.strict_cover_impossible": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "HexagonCover.FinalTheorem.cover_conjecture": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "HexagonCover.FinalTheorem.no_seven_cover": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "HexagonCover.FinalTheorem.size_one_is_covered": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        "object_sha256_matches_historical_clean_build": "82eefe6c7bbab0dce5af136bb9abc5169c08eebe2d842ab5c912124c8843668a"
+      },
+      {
+        "managed_run": "lean-review-github-gitcheck-semanticfinal-81b1656b26",
+        "managed_receipt_sha256": "454c79743f7dbedee92405edbcd22ff27278283123cade961f715f1566b1a824",
+        "stdout_sha256": "4c47f7551228bd4b8c3e5131728ded493c6106f18221402eeca1d6134c87882e",
+        "exit_code": 0,
+        "elapsed_s": 56.072354915999995,
+        "module": "HexagonCover.SemanticFinal",
+        "source_sha256": "83dd6493fe7f6ed66e8b7f4f9921694ad591e5fff82c657252137a584a77c7e1",
+        "axioms_by_theorem": {
+          "HexagonCover.SemanticFinal.original_statement_iff": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "HexagonCover.SemanticFinal.no_cover_moved_hexagon": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "HexagonCover.SemanticFinal.no_seven_rigid_placements": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "HexagonCover.SemanticFinal.explicit_no_seven_rigid_placements": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        "object_sha256_matches_historical_clean_build": "ef0cd591c08107e2221cbb4ec2dc9ed353ee77f429ab3d2f4463114aac23a44d"
+      }
+    ]
+  },
+  "fresh_geometry_smoke_test": {
+    "managed_run": "lean-review-github-git-smoke-geometry-1f1c0ecdc3",
+    "managed_receipt_sha256": "5c4f439066f4e77c163658b45b8276c14bbf088a76dbb901ebe8007f9ab7a10d",
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "exit_code": 0,
+    "elapsed_s": 37.885239084,
+    "project_objects_present_before": 0,
+    "project_modules_compiled": [
+      "HexagonCover.Geometry"
+    ],
+    "object_sha256_matches_historical_clean_build": "366517c074ef07eb4fa028b794556feb4ea74b7ed76d1ea130c657e7a174df33",
+    "build_script_sha256": "2ac0626977e33250397a58eabbf36b3dda3a92bef491de3838133886f3422d7b",
+    "command": "python3 build.py --target geometry",
+    "git_commit": "ae34a89d4bbfb72142bbb60ca44061f3dc54cebd"
+  },
+  "release_test_limits": {
+    "new_full_source_clean_rebuild": false,
+    "new_kernel_export_replay": false,
+    "public_command_new_dependency_download_tested": false,
+    "pinned_external_dependencies_already_present": true,
+    "incremental_lake_build_command_run_for_full_theorem": false,
+    "installed_lake_help_confirms_module_olean_target": true,
+    "installed_mathlib_cli_help_confirms_cache_get": true
+  }
+}
