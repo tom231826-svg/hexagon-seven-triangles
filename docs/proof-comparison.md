@@ -1,5 +1,7 @@
 # 백진언·김지원의 증명과 이 프로젝트의 증명
 
+**한국어** · [Read in English](proof-comparison.en.md)
+
 두 증명은 같은 질문에 답한다. 변 길이 $s>1$인 정육각형 전체를 임의의 위치와 방향에 놓은 일곱 닫힌 단위 정삼각형으로 덮을 수 없다. 백진언·김지원의 2026년 9월 24일자 원고와 백진언의 9월 27일자 Lean 기록이 이 프로젝트의 11월 11일 증명 기록보다 앞선다. 아래 비교 대상은 두 저자의 69쪽 원고와 이 프로젝트의 기하·계산 증명이다. [백진언·김지원 원고](https://github.com/dylan0301/hexagon-cover-database/blob/47a136fcdb3b31d46d0bb1a54da81c2cf73b8222/arrange/paper_draft/main.pdf) · [백진언의 Lean 정리](https://github.com/jcpaik/hexagon-cover-formalization/blob/545a609e0225e664dc830310641f2ec0170ee181/HexagonCover/ClosedScaling.lean#L29-L51) · [이 프로젝트의 증명 안내](proof-guide.md)
 
 외곽 여섯 조각을 $T_0,\ldots,T_5$, 중심을 담당하는 조각을 $C$라 한다. $E_i$는 육각형 꼭짓점 $u_i$에서 $u_{i+1}$로 가는 변이다. 두 이웃 외곽이 이 변에서 남긴 부분을 *틈*이라 부른다. 이 프로젝트에서 $M$은 $T_5$가 인접한 두 육각형 변을 따라 **실제로 덮는 길이 중 큰 값**이다.

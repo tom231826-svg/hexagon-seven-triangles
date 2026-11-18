@@ -1,5 +1,7 @@
 # Lean proof of the hexagon theorem
 
+[English overview](../README.en.md) · [한국어 개요](../README.md)
+
 The source proves that for every real side length $s>1$, seven independently placed closed unit equilateral triangles fail to cover the closed regular hexagon. The formal statement allows overlapping triangles, repeated placements, and triangles extending beyond the hexagon. At $s=1$, six radial triangles give a cover and a seventh triangle may duplicate one of them.
 
 | What to inspect | Source |

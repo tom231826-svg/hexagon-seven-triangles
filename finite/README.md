@@ -1,5 +1,7 @@
 # A clearance condition changes a 105-point covering problem
 
+[English overview](../README.en.md) · [한국어 개요](../README.md)
+
 Take the seven **closed** unit equilateral triangles $T_0,\ldots,T_5,C$ in the plane. Each may rotate and translate independently. Of the 105 distinct fixed points, 39 have prescribed triangles (three for each outer role, twenty-one for $C$). Each of the other 66 may belong to any of the seven. All coordinates and prescribed roles are in [points.json](data/points.json). A coordinate triple $[x,y,z]$ denotes $(x,y+z\sqrt3)$.
 
 | Hypothesis on the actual closed triangle $T_5$ | Can the 105 points be covered simultaneously? |
@@ -20,7 +22,7 @@ python3 -B finite/verify.py with-distance
 
 The first command checks all 21 squared side lengths, closed inclusion of the 39 prescribed points in their assigned triangles, coverage of all 66 free points, and the squared distance $243/10000$ for the displayed $T_5$. Each coordinate in the vertices file is a pair $[a,b]$ representing $a+b\sqrt3$.
 
-![The same seven triangles covering the prescribed and free points, with the distance restriction removed](data/placement.png)
+![Seven colored triangles covering 39 prescribed points (squares) and 66 free points (circles). The right panel shows the distance from the origin to T5 in this placement, about 0.1559, and the clearance bound, about 0.7015.](data/placement-en.png)
 
 The second command reads the original packet and tree, compares the prescribed roles and actual query coordinates with the published input, and verifies every reachable ownership branch. It visits 149 nodes and 468 distinct geometric contradictions. It checks that a leaf uses only prescribed points and points **already assigned to the same triangle on that path**. An actual simultaneous cover could follow the tree by choosing an owner at each queried point, even if multiple triangles cover it. Every such path ends in a checked contradiction.
 

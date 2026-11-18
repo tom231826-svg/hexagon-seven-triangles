@@ -1,8 +1,8 @@
 # 정육각형을 덮는 일곱 정삼각형
 
-백진언(Jineon Baek)과 김지원(Jeewon Kim)은 **한 변이 1보다 큰 정육각형을 단위 정삼각형 일곱 개로 완전히 덮을 수 없다**는 것을 먼저 증명했다. 이 저장소는 우리가 같은 정리에 도달한 다른 증명 경로와 검산 자료를 공개한다. 두 증명의 차이가 특히 잘 드러나는 사례가 있다. **같은 105점을 그대로 두고, 한 삼각형이 원점에 얼마나 가까이 올 수 있는지에 따라 덮기의 가능 여부가 바뀐다.** [백진언·김지원의 선행 원고](https://github.com/dylan0301/hexagon-cover-database/blob/47a136fcdb3b31d46d0bb1a54da81c2cf73b8222/arrange/paper_draft/main.pdf) · [백진언의 Lean 형식화](https://github.com/jcpaik/hexagon-cover-formalization/tree/545a609e0225e664dc830310641f2ec0170ee181)
+**한국어** · [Read in English](README.en.md)
 
-**English.** Jineon Baek and Jeewon Kim gave an earlier proof of the seven-triangle hexagon theorem. This repository gives another proof and an exact finite example. Seven closed unit equilateral triangles can cover the same 105 specified points with the prescribed roles. Requiring just one of those triangles to stay at distance at least $81\sqrt{3}/200$ from the origin makes that covering impossible. The coordinates, a feasible placement and a certificate excluding every assignment under the distance bound are included.
+백진언(Jineon Baek)과 김지원(Jeewon Kim)은 **한 변이 1보다 큰 정육각형을 단위 정삼각형 일곱 개로 완전히 덮을 수 없다**는 것을 먼저 증명했다. 이 저장소는 우리가 같은 정리에 도달한 다른 증명 경로와 검산 자료를 공개한다. 두 증명의 차이가 특히 잘 드러나는 사례가 있다. **같은 105점을 그대로 두고, 한 삼각형이 원점에 얼마나 가까이 올 수 있는지에 따라 덮기의 가능 여부가 바뀐다.** [백진언·김지원의 선행 원고](https://github.com/dylan0301/hexagon-cover-database/blob/47a136fcdb3b31d46d0bb1a54da81c2cf73b8222/arrange/paper_draft/main.pdf) · [백진언의 Lean 형식화](https://github.com/jcpaik/hexagon-cover-formalization/tree/545a609e0225e664dc830310641f2ec0170ee181)
 
 ## 같은 정리, 다른 증명
 

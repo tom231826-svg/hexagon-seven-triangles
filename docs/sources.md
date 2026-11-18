@@ -1,5 +1,7 @@
 # 어떤 결과가 먼저 있었는가
 
+**한국어** · [Read in English](sources.en.md)
+
 Karabash와 Soifer의 2005년 논문 *On Covering of Trigons*에서 출발한 문제다. 공동저자 Soifer는 후속 문헌에서 정육각형을 조금 키워도 여덟 장으로 덮을 수 있다는 정리를 설명했고, 일곱 장 불가능성을 2005년에 제기한 추측으로 명시했다. [2005년 학술지 목차](https://geombina.uccs.edu/past-issues/volume-xv) · [2010년 정리 3, 인쇄 35쪽](https://www.wfnmc.org/Journal%202010%201.pdf#page=39) · [2014년 강연 18쪽](https://onemperu.wordpress.com/wp-content/uploads/2014/07/alexandersoifer.pdf#page=18)
 
 백진언·김지원의 저장소에는 2026년 7월자 주정리와 9월 24일자 69쪽 원고가 있다. 백진언의 별도 저장소에는 9월 27일자 Lean 형식화가 있다. 이 프로젝트의 기하 증명은 11월 11일 내부 검토를 마쳤고, 이후 자체 Lean 증명을 작성했다. 앞의 날짜는 각 문서와 커밋의 이력이다. 두 저자의 저장소가 최초로 일반에 공개된 날짜나 학술지 심사 상태는 확인하지 못했다. [7월 주정리 커밋](https://github.com/dylan0301/hexagon-cover-database/commit/ec5efdc538a96fcfb84910fee1875c99e7e62a61) · [9월 공동 원고](https://github.com/dylan0301/hexagon-cover-database/blob/47a136fcdb3b31d46d0bb1a54da81c2cf73b8222/arrange/paper_draft/main.pdf) · [선행 Lean 저장소](https://github.com/jcpaik/hexagon-cover-formalization/tree/545a609e0225e664dc830310641f2ec0170ee181)
